@@ -16,5 +16,6 @@ gearshift              VARCHAR(50)                   NULL
 HorsePower             MEDIUMINT                     NULL
 year                   YEAR                          NULL
 country                VARCHAR(2)                    NULL
+price                  DECIMAL(6,2)                  NULL
 
           
