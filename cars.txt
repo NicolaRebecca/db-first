@@ -1,0 +1,20 @@
+name: cars
+
+
+Column                 Type                          Attributes                      Index
+
+id                     BIGINT UNSIGNED               AUTO_INCREMENT, NOT NULL        PRIMARY KEY
+VIN                    VARCHAR(17)                   NULL, UNIQUE                    INDEX
+vehicle type           VARCHAR(50)                   NOT NULL
+brand                  VARCHAR(50)                   NOT NULL
+model                  VARCHAR(50)                   NOT NULL
+conditions             VARCHAR(50)                   NULL
+versions               VARCHAR(50)                   NULL
+km                     INT                           NULL
+engines                VARCHAR(50)                   NULL
+gearshift              VARCHAR(50)                   NULL
+HorsePower             MEDIUMINT                     NULL
+year                   YEAR                          NULL
+country                VARCHAR(2)                    NULL
+
+          
